@@ -86,12 +86,33 @@
     .delete-btn:hover {
       background-color: #c0392b;
     }
+
+    .add-btn{
+      background-color: #3f4ed3ff;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: bold;
+      text-decoration: none;
+      display: inline-block;
+      transition: background-color 0.2s;
+    }
+
+    .add-btn:hover{
+      background-color: #151a7aff;
+    }
   </style>
 </head>
 
 <body>
 
   <h2>Daftar Produk</h2>
+  <a href="/form_tambah_produk.php" class="add-btn">Tambah Data</a>
+  <br>
+  <br>
 
   <table>
     <thead>
