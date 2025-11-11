@@ -94,7 +94,7 @@ $data = mysqli_fetch_assoc($result);
   <body>
     <div class="form-container">
       <h2>Input Produk</h2>
-      <form action="input_produk.php" method="POST">
+      <form action="update_produk.php" method="POST">
         <div class="form-group">
             <input type="hidden" name="id_produk" value="<?php echo $data['id_produk']; ?>">
           <label for="nama_produk">Nama Produk</label>
