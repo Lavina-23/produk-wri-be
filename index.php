@@ -87,7 +87,7 @@
       background-color: #c0392b;
     }
 
-    .add-btn{
+    .add-btn {
       display: inline-block;
       margin-bottom: 15px;
       padding: 10px 15px;
@@ -105,6 +105,7 @@
   <h2>Daftar Produk</h2>
 
   <a href="/form_tambah_produk.php" class="add-btn">Tambah Produk</a>
+  <a href="/view_joins.php" class="add-btn" style="background-color: #28a745; margin-left: 10px;">Lihat Contoh JOIN</a>
 
   <table>
     <thead>
