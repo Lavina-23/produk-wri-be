@@ -8,7 +8,9 @@ INSERT INTO produk (nama_produk, jenis_produk, harga, stok) VALUES
 ('Printer Canon', 'Elektronik', 1800000, 15),
 ('Webcam HD', 'Elektronik', 600000, 40),
 ('Buku Programming PHP', 'Buku', 125000, 60),
-('Buku Database MySQL', 'Buku', 150000, 45);
+('Buku Database MySQL', 'Buku', 150000, 45),
+('SSD 512GB', 'Elektronik', 1200000, 35),
+('RAM 16GB', 'Elektronik', 800000, 40);
 
 INSERT INTO pelanggan (nama_pelanggan, alamat, telepon) VALUES
 ('Ahmad Rizki', 'Jl. Merdeka No. 10, Jakarta', '081234567890'),
@@ -18,7 +20,9 @@ INSERT INTO pelanggan (nama_pelanggan, alamat, telepon) VALUES
 ('Eko Prasetyo', 'Jl. Diponegoro No. 5, Semarang', '085678901234'),
 ('Fitri Handayani', 'Jl. Pahlawan No. 20, Malang', '086789012345'),
 ('Gilang Ramadhan', 'Jl. Veteran No. 12, Solo', '087890123456'),
-('Hana Pertiwi', 'Jl. Pemuda No. 8, Medan', '088901234567');
+('Hana Pertiwi', 'Jl. Pemuda No. 8, Medan', '088901234567'),
+('Rudi Hartono', 'Jl. Gajah Mada No. 45, Denpasar', '089012345678'),
+('Linda Kusuma', 'Jl. Hayam Wuruk No. 18, Bali', '081123456789');
 
 INSERT INTO penjualan (tanggal, id_pelanggan) VALUES
 ('2025-01-15', 1),
@@ -30,7 +34,9 @@ INSERT INTO penjualan (tanggal, id_pelanggan) VALUES
 ('2025-03-12', 2),
 ('2025-03-20', 6),
 ('2025-04-05', 7),
-('2025-04-15', 3);
+('2025-04-10', 8),
+('2025-04-15', 3),
+('2025-04-20', 5);
 
 INSERT INTO detail_penjualan (id_penjualan, id_produk, jumlah, subtotal) VALUES
 (1, 1, 1, 15000000.00),
@@ -44,12 +50,8 @@ INSERT INTO detail_penjualan (id_penjualan, id_produk, jumlah, subtotal) VALUES
 (4, 8, 1, 600000.00),
 (5, 2, 3, 750000.00),
 (5, 3, 1, 750000.00),
-(6, 10, 3, 450000.00),
-(6, 9, 1, 125000.00),
 (7, 1, 1, 15000000.00),
 (8, 4, 2, 5000000.00),
 (8, 5, 2, 1000000.00),
 (9, 6, 10, 1000000.00),
-(9, 8, 1, 600000.00),
-(10, 7, 1, 1800000.00),
-(10, 2, 1, 250000.00);
+(9, 8, 1, 600000.00);
